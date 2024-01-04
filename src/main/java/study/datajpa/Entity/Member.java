@@ -31,6 +31,11 @@ public class Member {
         }
     }
 
+    public Member(String username, int age) {
+        this.username = username;
+        this.age = age;
+    }
+
     // 팀 바꿀 때 Member, Team 둘 다 적용
     public void changeTeam(Team team) {
         this.team = team;
